@@ -1,7 +1,7 @@
 <section class="phx-hero">
   <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
   <h2><%= gettext "Welcome to %{dickhead}!", dickhead: "Dickhead" %></h2>
-  <h3><%= num %></h3>
+  <h3><%= num(15) %></h3>
   <p>A productive web framework that<br/>does not compromise speed or maintainability.</p>
 </section>
 

@@ -1,5 +1,5 @@
 defmodule LearningElixirWeb.PrintNumber do
-  def num() do
-    15
+  def num(num) do
+    num
   end 
 end
